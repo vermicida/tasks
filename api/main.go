@@ -7,6 +7,7 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"github.com/go-chi/render"
+	"github.com/vermicida/tasks/api/features/tasks"
 )
 
 func Routes() *chi.Mux {
